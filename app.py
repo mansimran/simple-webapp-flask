@@ -6,7 +6,7 @@ app = Flask(__name__)
 def main():
     return "Welcome!"
 
-@app.route('/how are you csm team')
+@app.route('/what are you learning csm team')
 def hello():
     return 'csm team is learning Docker?'
 
